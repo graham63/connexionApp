@@ -1,0 +1,35 @@
+openapi: 3.0.0
+info:
+  title: Connexion API
+  version: 1.0.0
+paths:
+  /hello:
+    get:
+      summary: Returns Hello World
+      operationId: hello
+      responses:
+        '200':
+          description: Greeting
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /site/layout:
+    get:
+      tags:
+        - site
+      summary: Get info
+      operationId: get_site_layout
+      responses:
+        '200':
+          description: Success/Fail
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string

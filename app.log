@@ -1,0 +1,228 @@
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static GET,OPTIONS,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (GET, OPTIONS, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,GET,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,GET,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, GET, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,GET,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, GET, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static GET,OPTIONS,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (GET, OPTIONS, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,GET,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static GET,HEAD,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (GET, HEAD, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,GET,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, GET, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,GET,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, GET, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,GET,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, GET, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,OPTIONS,GET /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, OPTIONS, GET) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static GET,OPTIONS,HEAD /static/<path:filename>
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,GET,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, GET, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static GET,HEAD,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (GET, HEAD, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,GET,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,GET,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static GET,HEAD,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (GET, HEAD, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,GET,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,OPTIONS,GET /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, OPTIONS, GET) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,GET,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, GET, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,GET,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static GET,OPTIONS,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (GET, OPTIONS, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,HEAD,GET /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, HEAD, GET) -> static>])
+INFO - API successfully loaded.
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,HEAD,GET /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, HEAD, GET) -> static>])
+INFO - API successfully loaded.
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,HEAD,GET /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, HEAD, GET) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,HEAD,GET /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, HEAD, GET) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,OPTIONS,GET /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, OPTIONS, GET) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,HEAD,GET /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, HEAD, GET) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static GET,HEAD,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (GET, HEAD, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,GET,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, GET, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,GET,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,OPTIONS,GET /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, OPTIONS, GET) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,GET,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,GET,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,GET,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, GET, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,HEAD,GET /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, HEAD, GET) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static GET,OPTIONS,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (GET, OPTIONS, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,GET,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,GET,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,HEAD,GET /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, HEAD, GET) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,GET,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,HEAD,GET /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, HEAD, GET) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,GET,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static GET,HEAD,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (GET, HEAD, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,GET,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, GET, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static GET,HEAD,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (GET, HEAD, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,OPTIONS,GET /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, OPTIONS, GET) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,HEAD,GET /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, HEAD, GET) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static GET,OPTIONS,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (GET, OPTIONS, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,GET,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, GET, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static GET,HEAD,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (GET, HEAD, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,GET,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,HEAD,GET /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, HEAD, GET) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static GET,HEAD,OPTIONS /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (GET, HEAD, OPTIONS) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static OPTIONS,GET,HEAD /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (OPTIONS, GET, HEAD) -> static>])
+INFO - API successfully loaded.
+INFO - Total routes: 1
+INFO - ***** URL MAP*****: static HEAD,OPTIONS,GET /static/<path:filename>
+INFO - API loaded with routes: Map([<Rule '/static/<filename>' (HEAD, OPTIONS, GET) -> static>])
