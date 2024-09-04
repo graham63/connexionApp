@@ -8,6 +8,7 @@ import flask_socketio
 import connexion
 from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
+# from connexion.resolver import RestyResolver
 from connexion.resolver import RelativeResolver
 import logging
 
@@ -57,6 +58,7 @@ yaml_path = os.path.abspath('openapi.yaml')
 print(f"Loading API from: {yaml_path}")
 
 try:
+  #app.add_api('openapi.yaml', resolver=RestyResolver('connexionApp'))
   app.add_api('openapi.yaml', resolver=RelativeResolver('connexionApp'))
   Log.info("API successfully loaded.")
 except Exception as e:
@@ -72,7 +74,6 @@ app.add_middleware(
   allow_methods=["*"],
   allow_headers=["*"],
 )
-
 
 # Initialize Flask-SocketIO
 socketio = flask_socketio.SocketIO(app.app,
@@ -101,7 +102,6 @@ def handle_disconnect():
 if __name__ == '__main__':
     # Run the Flask-SocketIO server
     list_routes()
-    Log.info("API loaded with routes: {}".format(app.app.url_map))
     with app.app.app_context():
       socketio = current_app.config['socketio']
       socketio.run(app.app, host='0.0.0.0', port=8000, debug=True)
