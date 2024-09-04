@@ -84,6 +84,7 @@ with app.app.app_context():
     current_app.config['socketio'] = socketio
     
 # Define the API endpoint implementation
+@app.route("/hello")
 def hello():
   return jsonify({"message": "Hello, World!"})
 
