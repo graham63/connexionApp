@@ -32,16 +32,16 @@ console_handler = logging.StreamHandler()
 console_handler.setFormatter(formatter)
 Log.addHandler(console_handler)
 
+# Log registered routes
 def list_routes():
     import urllib.parse
 
-    # Log all routes
     Log.info(f"Total routes: {len(list(app.app.url_map.iter_rules()))}")
 
     max_endpoint_length = max(len(rule.endpoint) for rule in app.app.url_map.iter_rules())
     max_methods_length = max(len(','.join(rule.methods)) for rule in app.app.url_map.iter_rules())
 
-    # Generate and log the URL map
+    # Log URL map
     url_map_lines = sorted(
         urllib.parse.unquote(f"{rule.endpoint:{max_endpoint_length}} {','.join(rule.methods):{max_methods_length}} {rule}")
         for rule in app.app.url_map.iter_rules()
@@ -83,7 +83,7 @@ socketio = flask_socketio.SocketIO(app.app,
 with app.app.app_context():
     current_app.config['socketio'] = socketio
     
-# Define the API endpoint implementation
+# API functions 
 @app.route("/hello")
 def hello():
   return jsonify({"message": "Hello, World!"})
@@ -91,7 +91,7 @@ def hello():
 def get_site_layout():
   return jsonify({"message": "Site Layout"})
 
-# SocketIO event handler example
+# SocketIO event handlers
 @socketio.on('connect')
 def handle_connect():
   print('Client connected')
@@ -101,8 +101,9 @@ def handle_disconnect():
   print('Client disconnected')
 
 if __name__ == '__main__':
-    # Run the Flask-SocketIO server
     list_routes()
+    
+    # Run server
     with app.app.app_context():
       socketio = current_app.config['socketio']
       socketio.run(app.app, host='0.0.0.0', port=8000, debug=True)
