@@ -6,10 +6,17 @@ from flask import jsonify
 import connexion
 # from connexion.resolver import RestyResolver
 from connexion.resolver import RelativeResolver
-
-app = connexion.FlaskApp(__name__, specification_dir='.')
+from connexion.middleware.routing import RoutingMiddleware
+from pathlib import Path
+app = connexion.FlaskApp(__name__)
 #app.add_api('openapi.yaml', resolver=RestyResolver('minApp'))
-app.add_api('openapi.yaml', resolver=RelativeResolver('minApp'))
+app.add_api('openapi.yaml')
+app.app.config['DEBUG'] = True
+
+# app.add_middleware(
+#     RoutingMiddlware,
+    
+# )
 
 #socketio = SocketIO(app.app, cors_allowed_origins="*", async_mode='gevent')
 
@@ -23,5 +30,8 @@ def get_site_layout():
 if __name__ == '__main__':
     print("**** Total routes: {}".format({len(list(app.app.url_map.iter_rules()))}))
     print("**** API loaded with routes: {}".format(app.app.url_map))
+    for attribute in dir(app):
+        print("**** App: {}".format(getattr(app, attribute)))
+    print("***** Blueprint *****: {}".format(app.app.blueprints))
     # socketio.run(app.app, host='0.0.0.0', port=8000, debug=True)
-    app.run()
+    app.run(f"{Path(__file__).stem}:app", port=8080, log_level="debug")

@@ -6,6 +6,7 @@ paths:
   /hello:
     get:
       summary: Returns Hello World
+      x-openapi-router-controller: connexionApp
       operationId: hello
       responses:
         '200':
@@ -22,6 +23,7 @@ paths:
       tags:
         - site
       summary: Get info
+      x-openapi-router-controller: connexionApp
       operationId: get_site_layout
       responses:
         '200':
