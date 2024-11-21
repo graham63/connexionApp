@@ -43,7 +43,6 @@ async def app(scope, receive, send):
         print("CONNEXION APP")
         with connexion_app.app.app_context():
           await connexion_app(scope, receive, send)
-        
+
 #if __name__ == '__main__':
   # connexion_app.run(f"{Path(__file__).stem}:app", port=8080, log_level="debug")
-  
