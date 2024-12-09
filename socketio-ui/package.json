@@ -19,6 +19,7 @@
     "vuetify": "^3.6.11"
   },
   "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.15.3",
     "@vitejs/plugin-vue": "^5.0.5",
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",
@@ -28,6 +29,7 @@
     "eslint-plugin-promise": "^6.4.0",
     "eslint-plugin-vue": "^9.27.0",
     "sass": "1.77.6",
+    "swagger-vue": "^1.0.3",
     "unplugin-fonts": "^1.1.1",
     "unplugin-vue-components": "^0.27.2",
     "unplugin-vue-router": "^0.10.0",
