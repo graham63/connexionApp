@@ -5,16 +5,15 @@
     "version": "7.10.0",
     "generators": {
       "vue3-api-client": {
-        "generatorName": "typescript-axios",
+        "generatorName": "javascript",
         "inputSpec": "http://localhost:8080/openapi.yaml",
         "output": "./src/lib",
         "additionalProperties": {
-          "supportsES6": true,
           "usePromises": true,
-          "modelPropertyNaming": "camelCase",
+          "useES6": true,
           "apiPackage": "apis",
           "modelPackage": "models",
-          "withSeparateModelsAndApi": true
+          "npmRepository": "./node_modules"
         }
       }
     }
