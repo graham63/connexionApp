@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 ## getSiteLayout
 
-> Hello200Response getSiteLayout()
+> GetSiteLayout getSiteLayout()
 
 Get info
 
@@ -34,7 +34,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**Hello200Response**](Hello200Response.md)
+[**GetSiteLayout**](GetSiteLayout.md)
 
 ### Authorization
 

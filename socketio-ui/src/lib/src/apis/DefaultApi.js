@@ -13,18 +13,18 @@
 
 
 import ApiClient from "../ApiClient";
-import Hello200Response from '../model/Hello200Response';
+import Hello from '../models/Hello';
 
 /**
 * Default service.
-* @module api/DefaultApi
+* @module apis/DefaultApi
 * @version 1.0.0
 */
 export default class DefaultApi {
 
     /**
     * Constructs a new DefaultApi. 
-    * @alias module:api/DefaultApi
+    * @alias module:apis/DefaultApi
     * @class
     * @param {module:ApiClient} [apiClient] Optional API client implementation to use,
     * default to {@link module:ApiClient#instance} if unspecified.
@@ -37,7 +37,7 @@ export default class DefaultApi {
 
     /**
      * Returns Hello World
-     * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with an object containing data of type {@link module:model/Hello200Response} and HTTP response
+     * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with an object containing data of type {@link module:models/Hello} and HTTP response
      */
     helloWithHttpInfo() {
       let postBody = null;
@@ -54,7 +54,7 @@ export default class DefaultApi {
       let authNames = [];
       let contentTypes = [];
       let accepts = ['application/json'];
-      let returnType = Hello200Response;
+      let returnType = Hello;
       return this.apiClient.callApi(
         '/hello', 'GET',
         pathParams, queryParams, headerParams, formParams, postBody,
@@ -64,7 +64,7 @@ export default class DefaultApi {
 
     /**
      * Returns Hello World
-     * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with data of type {@link module:model/Hello200Response}
+     * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with data of type {@link module:models/Hello}
      */
     hello() {
       return this.helloWithHttpInfo()

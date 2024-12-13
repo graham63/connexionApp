@@ -28,7 +28,7 @@
   var instance;
 
   beforeEach(function() {
-    instance = new ConnexionApi.Hello200Response();
+    instance = new ConnexionApi.Hello();
   });
 
   var getProperty = function(object, getter, property) {
@@ -47,16 +47,16 @@
       object[property] = value;
   }
 
-  describe('Hello200Response', function() {
-    it('should create an instance of Hello200Response', function() {
-      // uncomment below and update the code to test Hello200Response
-      //var instance = new ConnexionApi.Hello200Response();
-      //expect(instance).to.be.a(ConnexionApi.Hello200Response);
+  describe('Hello', function() {
+    it('should create an instance of Hello', function() {
+      // uncomment below and update the code to test Hello
+      //var instance = new ConnexionApi.Hello();
+      //expect(instance).to.be.a(ConnexionApi.Hello);
     });
 
     it('should have the property message (base name: "message")', function() {
       // uncomment below and update the code to test the property message
-      //var instance = new ConnexionApi.Hello200Response();
+      //var instance = new ConnexionApi.Hello();
       //expect(instance).to.be();
     });
 

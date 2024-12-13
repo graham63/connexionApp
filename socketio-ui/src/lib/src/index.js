@@ -13,9 +13,10 @@
 
 
 import ApiClient from './ApiClient';
-import Hello200Response from './model/Hello200Response';
-import DefaultApi from './api/DefaultApi';
-import SiteApi from './api/SiteApi';
+import GetSiteLayout from './models/GetSiteLayout';
+import Hello from './models/Hello';
+import DefaultApi from './apis/DefaultApi';
+import SiteApi from './apis/SiteApi';
 
 
 /**
@@ -57,20 +58,26 @@ export {
     ApiClient,
 
     /**
-     * The Hello200Response model constructor.
-     * @property {module:model/Hello200Response}
+     * The GetSiteLayout model constructor.
+     * @property {module:models/GetSiteLayout}
      */
-    Hello200Response,
+    GetSiteLayout,
+
+    /**
+     * The Hello model constructor.
+     * @property {module:models/Hello}
+     */
+    Hello,
 
     /**
     * The DefaultApi service constructor.
-    * @property {module:api/DefaultApi}
+    * @property {module:apis/DefaultApi}
     */
     DefaultApi,
 
     /**
     * The SiteApi service constructor.
-    * @property {module:api/SiteApi}
+    * @property {module:apis/SiteApi}
     */
     SiteApi
 };

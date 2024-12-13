@@ -13,18 +13,18 @@
 
 
 import ApiClient from "../ApiClient";
-import Hello200Response from '../model/Hello200Response';
+import GetSiteLayout from '../models/GetSiteLayout';
 
 /**
 * Site service.
-* @module api/SiteApi
+* @module apis/SiteApi
 * @version 1.0.0
 */
 export default class SiteApi {
 
     /**
     * Constructs a new SiteApi. 
-    * @alias module:api/SiteApi
+    * @alias module:apis/SiteApi
     * @class
     * @param {module:ApiClient} [apiClient] Optional API client implementation to use,
     * default to {@link module:ApiClient#instance} if unspecified.
@@ -37,7 +37,7 @@ export default class SiteApi {
 
     /**
      * Get info
-     * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with an object containing data of type {@link module:model/Hello200Response} and HTTP response
+     * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with an object containing data of type {@link module:models/GetSiteLayout} and HTTP response
      */
     getSiteLayoutWithHttpInfo() {
       let postBody = null;
@@ -54,7 +54,7 @@ export default class SiteApi {
       let authNames = [];
       let contentTypes = [];
       let accepts = ['application/json'];
-      let returnType = Hello200Response;
+      let returnType = GetSiteLayout;
       return this.apiClient.callApi(
         '/site/layout', 'GET',
         pathParams, queryParams, headerParams, formParams, postBody,
@@ -64,7 +64,7 @@ export default class SiteApi {
 
     /**
      * Get info
-     * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with data of type {@link module:model/Hello200Response}
+     * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with data of type {@link module:models/GetSiteLayout}
      */
     getSiteLayout() {
       return this.getSiteLayoutWithHttpInfo()

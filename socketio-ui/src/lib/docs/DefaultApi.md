@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 ## hello
 
-> Hello200Response hello()
+> Hello hello()
 
 Returns Hello World
 
@@ -34,7 +34,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**Hello200Response**](Hello200Response.md)
+[**Hello**](Hello.md)
 
 ### Authorization
 

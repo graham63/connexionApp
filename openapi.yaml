@@ -13,6 +13,7 @@ paths:
           content:
             application/json:
               schema:
+                title: hello
                 type: object
                 properties:
                   message:
@@ -29,6 +30,7 @@ paths:
           content:
             application/json:
               schema:
+                title: get_site_layout
                 type: object
                 properties:
                   message:

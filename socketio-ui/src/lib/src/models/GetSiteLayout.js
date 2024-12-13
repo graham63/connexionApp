@@ -14,18 +14,18 @@
 import ApiClient from '../ApiClient';
 
 /**
- * The Hello200Response model module.
- * @module model/Hello200Response
+ * The GetSiteLayout model module.
+ * @module models/GetSiteLayout
  * @version 1.0.0
  */
-class Hello200Response {
+class GetSiteLayout {
     /**
-     * Constructs a new <code>Hello200Response</code>.
-     * @alias module:model/Hello200Response
+     * Constructs a new <code>GetSiteLayout</code>.
+     * @alias module:models/GetSiteLayout
      */
     constructor() { 
         
-        Hello200Response.initialize(this);
+        GetSiteLayout.initialize(this);
     }
 
     /**
@@ -37,15 +37,15 @@ class Hello200Response {
     }
 
     /**
-     * Constructs a <code>Hello200Response</code> from a plain JavaScript object, optionally creating a new instance.
+     * Constructs a <code>GetSiteLayout</code> from a plain JavaScript object, optionally creating a new instance.
      * Copies all relevant properties from <code>data</code> to <code>obj</code> if supplied or a new instance if not.
      * @param {Object} data The plain JavaScript object bearing properties of interest.
-     * @param {module:model/Hello200Response} obj Optional instance to populate.
-     * @return {module:model/Hello200Response} The populated <code>Hello200Response</code> instance.
+     * @param {module:models/GetSiteLayout} obj Optional instance to populate.
+     * @return {module:models/GetSiteLayout} The populated <code>GetSiteLayout</code> instance.
      */
     static constructFromObject(data, obj) {
         if (data) {
-            obj = obj || new Hello200Response();
+            obj = obj || new GetSiteLayout();
 
             if (data.hasOwnProperty('message')) {
                 obj['message'] = ApiClient.convertToType(data['message'], 'String');
@@ -55,9 +55,9 @@ class Hello200Response {
     }
 
     /**
-     * Validates the JSON data with respect to <code>Hello200Response</code>.
+     * Validates the JSON data with respect to <code>GetSiteLayout</code>.
      * @param {Object} data The plain JavaScript object bearing properties of interest.
-     * @return {boolean} to indicate whether the JSON data is valid with respect to <code>Hello200Response</code>.
+     * @return {boolean} to indicate whether the JSON data is valid with respect to <code>GetSiteLayout</code>.
      */
     static validateJSON(data) {
         // ensure the json data is a string
@@ -76,12 +76,12 @@ class Hello200Response {
 /**
  * @member {String} message
  */
-Hello200Response.prototype['message'] = undefined;
+GetSiteLayout.prototype['message'] = undefined;
 
 
 
 
 
 
-export default Hello200Response;
+export default GetSiteLayout;
 

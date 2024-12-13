@@ -1,4 +1,4 @@
-# ConnexionApi.Hello200Response
+# ConnexionApi.GetSiteLayout
 
 ## Properties
 

@@ -124,7 +124,8 @@ Class | Method | HTTP request | Description
 
 ## Documentation for Models
 
- - [ConnexionApi.Hello200Response](docs/Hello200Response.md)
+ - [ConnexionApi.GetSiteLayout](docs/GetSiteLayout.md)
+ - [ConnexionApi.Hello](docs/Hello.md)
 
 
 ## Documentation for Authorization
