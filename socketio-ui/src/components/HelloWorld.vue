@@ -12,6 +12,9 @@
         <v-btn text="Get Site Layout" @click="getSiteLayout()"></v-btn>
         {{ siteLayoutResponse }}
       </div>
+      <div class="text-center" style="margin-top: 15px;">
+        <v-btn text="Emit Socketio Message" @click="testSocketio()"></v-btn>
+      </div>
 
       <div class="text-center" style="margin-top: 30px;">
         <v-btn text="Clear Responses" @click="clear()"></v-btn>
@@ -37,6 +40,10 @@
 
   function getSiteLayout() {
     connectionStore.apiGetSiteLayout();
+  }
+
+  function testSocketio() {
+    connectionStore.testSocketio();
   }
 
   function clear() {

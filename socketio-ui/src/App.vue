@@ -14,6 +14,7 @@
 
   /* Connection */
   onMounted(() => {
+    connectionStore.initializeListeners();
     connectionStore.connect();
   })
 

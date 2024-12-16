@@ -6,14 +6,14 @@
     "generators": {
       "vue3-api-client": {
         "generatorName": "javascript",
-        "inputSpec": "http://localhost:8080/openapi.yaml",
-        "output": "./src/lib",
+        "inputSpec": "./updated_openapi.yaml",
+        "output": "./src/mirage-lib",
         "additionalProperties": {
           "usePromises": true,
           "useES6": true,
           "apiPackage": "apis",
           "modelPackage": "models",
-          "npmRepository": "./node_modules"
+          "npmRepository": "../node_modules"
         }
       }
     }
