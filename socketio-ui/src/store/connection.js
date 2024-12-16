@@ -1,26 +1,6 @@
 import { defineStore } from 'pinia';
-import axios from 'axios'
 import socket from '@/plugins/socket';
-import { DefaultApi, SiteApi } from '@/lib/src';
-
-// Base level functions in .yaml (/hello => DefaultApi)
-const defaultApi = new DefaultApi();
-defaultApi.basePath = 'http://localhost:8080'
-
-// Each namespace in openapi.yaml has an api (/site/layout => SiteApi)
-const siteApi = new SiteApi();
-
-
-// Fixes error: "Refused to set unsafe header "User-Agent"
-defaultApi.apiClient.defaultHeaders = {}
-
-const callback = function(error, data, response) {
-  if (error) {
-    console.error(error);
-  } else {
-    console.log('API called successfully. Returned data: ' + data);
-  }
-};
+import {hello, get_site_layout} from '@/lib/api_register'
 
 export const useConnectionStore = defineStore('connection', {
   state: () => ({
@@ -38,7 +18,7 @@ export const useConnectionStore = defineStore('connection', {
       }
 
       socket.on('connect', () => {
-        console.log('----- Connected to Socket-----');
+        console.log('----- Connected to Socket-----', socket.id);
         this.socketConnected = true;
       });
 
@@ -52,27 +32,45 @@ export const useConnectionStore = defineStore('connection', {
       });
     },
 
+    // This could probably also go in the connect function, but it might
+    // be more clear what's happening if the listeners are initialized separately
+    async initializeListeners() {
+      socket.on('broadcast', (message) => {
+        console.log('----- Received broadcast-----', message);
+      });
+    },
+
     disconnect() {
       socket.disconnect();
     },
 
     async apiHello() {
       try {
-        const response = await defaultApi.hello();
+        const response = await hello();
         this.helloResponse = response;
         console.log('GET /hello response:', response);
       } catch (error) {
         console.error('Error fetching /hello:', error);
       }
     },
+
     async apiGetSiteLayout() {
       try {
-        const response = await siteApi.getSiteLayout();
+        const response = await get_site_layout();
         this.siteLayoutResponse = response;
         console.log('GET /site/layout response:', response);
       } catch (error) {
         console.error('Error fetching /site/layout:', error);
       }
     },
+
+    async testSocketio() {
+      try {
+        socket.emit('socketioTest', { message: 'Hello from the client' })
+      } catch (error) {
+        console.error('Error emitting socketio message:', error);
+      }
+    },
+
   },
 });
